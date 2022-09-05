@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
-makes the current directory a python package
-"""
-from models.engine import file_storage
+"""__init__ module"""
+from models.engine.file_storage import FileStorage
+
+
 storage = FileStorage()
 storage.reload()
