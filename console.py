@@ -17,13 +17,13 @@ class HBNBCommand(cmd.Cmd):
         """
         return False
 
-    def do_quit(self):
+    def do_quit(self, arg):
         """
-        a command( line quiter
+        A command line quiter
         """
         return 1
 
-    def do_EOF(self):
+    def do_EOF(self, arg):
         """
         A command line quiter
         """
